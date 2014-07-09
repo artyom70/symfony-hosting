@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <meta name="keywords" content="hosting,dedcated server">
+        <meta name="description" content="The first hosting">
+        <link rel="stylesheet" type="text/css" href="{{ asset('bundles/providerhosting/css/style.css') }}">
+        <link rel="icon" type="image/x-icon" href="{{ asset('bundles/providerhosting/favicon.ico') }}" />
+    </head>
+    <body>
+        {% block body %}
+        {% endblock %}
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>

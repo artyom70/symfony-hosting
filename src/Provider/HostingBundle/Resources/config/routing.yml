@@ -1,0 +1,11 @@
+provider_hosting_homepage:
+    path:     /
+    defaults: { _controller: ProviderHostingBundle:Hosting:price }
+
+provider_hosting_manager:
+    path:     /manager
+    defaults: { _controller: FOSUserBundle:Security:login }
+
+provider_hosting_register:
+    path:     /register
+    defaults: { _controller: FOSUserBundle:Registration:register }

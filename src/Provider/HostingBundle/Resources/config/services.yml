@@ -1,0 +1,7 @@
+parameters:
+#    provider_hosting.example.class: Provider\HostingBundle\Example
+
+services:
+#    provider_hosting.example:
+#        class: %provider_hosting.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
